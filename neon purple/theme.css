@@ -1,0 +1,93 @@
+
+/* === Neon Purple Custom Obsidian Theme === */
+
+:root {
+  --background-primary: #0d1117;
+  --background-secondary: #161b22;
+  --background-modifier-border: #282c34;
+
+  --text-normal: #e6edf3;
+  --text-muted: #8b949e;
+  --text-accent: #c678dd; /* Neon purple accent */
+  --interactive-accent: #c678dd; /* Neon purple hover elements */
+
+  --h1-color: #c678dd;
+  --h2-color: #c678dd;
+  --h3-color: #c678dd;
+
+  --bold-color: #ff6c00; /* Neon fire orange */
+  --link-color: #61afef;
+  --tag-color: #56b6c2;
+}
+
+/* === Typography Enhancements === */
+h1, h2, h3 {
+  color: var(--h1-color) !important;
+  text-shadow: 0 0 8px var(--h1-color);
+}
+
+strong, b {
+  color: var(--bold-color) !important;
+  font-weight: 700;
+  text-shadow: 0 0 4px var(--bold-color);
+}
+
+a {
+  color: var(--link-color);
+}
+
+tag {
+  color: var(--tag-color);
+  font-weight: bold;
+}
+
+/* === Editor and UI Tweaks === */
+.markdown-preview-view,
+.markdown-source-view,
+.cm-s-obsidian {
+  background-color: var(--background-primary) !important;
+  color: var(--text-normal);
+}
+
+.workspace-leaf-content,
+.nav-file-title,
+.nav-folder-title {
+  color: var(--text-normal);
+}
+
+.cm-header {
+  color: var(--h1-color);
+}
+
+.cm-strong {
+  color: var(--bold-color);
+}
+
+.cm-link {
+  color: var(--link-color);
+}
+
+.cm-tag {
+  color: var(--tag-color);
+}
+
+/* === Glow Effects === */
+h1, h2, h3 {
+  text-shadow: 0 0 5px var(--h1-color), 0 0 10px var(--h1-color);
+}
+
+strong {
+  text-shadow: 0 0 3px var(--bold-color);
+}
+
+/* === Callout Enhancements === */
+.callout {
+  border-left: 3px solid var(--interactive-accent);
+  background-color: rgba(198, 120, 221, 0.1);
+  box-shadow: 0 0 10px rgba(198, 120, 221, 0.4);
+}
+
+.callout-title {
+  color: var(--h1-color);
+  font-weight: bold;
+}

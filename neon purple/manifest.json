@@ -1,0 +1,9 @@
+
+{
+  "name": "Neon Purple Theme",
+  "author": "Rob Hedglen x ChatGPT",
+  "version": "1.0.0",
+  "minAppVersion": "0.12.0",
+  "description": "A sleek futuristic neon purple + fire orange dark theme for Obsidian.",
+  "isDesktopOnly": false
+}
